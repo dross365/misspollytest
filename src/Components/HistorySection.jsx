@@ -6,7 +6,7 @@ import {
   faHollyBerry,
 } from "@fortawesome/free-solid-svg-icons";
 import { faPagelines } from "@fortawesome/free-brands-svg-icons";
-import portrait from "../assets/portrait.JPG";
+import portrait from "../assets/portrait.jpg";
 
 const HistorySection = () => {
   return (

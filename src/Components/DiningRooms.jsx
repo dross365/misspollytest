@@ -1,7 +1,7 @@
 import React from "react";
-import celeste from "../assets/celeste.JPG";
-import cleo from "../assets/cleo.JPG";
-import rose from "../assets/rose.JPG";
+import celeste from "../assets/celeste.jpg";
+import cleo from "../assets/cleo.jpg";
+import rose from "../assets/rose.jpg";
 
 const DiningRooms = () => {
   return (

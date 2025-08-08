@@ -1,6 +1,6 @@
 import React from "react";
-import historic1 from "../assets/historic-1.JPG";
-import historic2 from "../assets/historic-2.JPG";
+import historic1 from "../assets/historic-1.jpg";
+import historic2 from "../assets/historic-2.jpg";
 
 const WhoSection = () => {
   return (
