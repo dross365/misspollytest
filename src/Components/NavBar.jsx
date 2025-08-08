@@ -75,7 +75,7 @@ const NavBar = () => {
                   { href: "#history", label: "History of 218 Valley Ct" },
                   { href: "#expect", label: "What To Expect" },
                   { href: "#who", label: "Who Is Miss Polly?" },
-                  { href: "#tea", label: "History of Tea" },
+                  { href: "#tea", label: "History of Afternoon Tea" },
                   { href: "#dining", label: "Dining Rooms" },
                   { href: "#events", label: "Events" },
                   { href: "#location", label: "Location & Hours" },
