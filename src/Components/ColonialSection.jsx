@@ -1,6 +1,6 @@
 import React from "react";
-import cabinet from "../assets/cabinet.jpg";
-import fireplaceDeco from "../assets/fireplace-deco.jpg";
+import cabinet from "../assets/cabinet.JPG";
+import fireplaceDeco from "../assets/fireplace-deco.JPG";
 
 const ColonialSection = () => {
   return (
