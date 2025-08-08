@@ -5,9 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "predeploy": "vite build && cp dist/index.html dist/404.html || copy dist\\index.html dist\\404.html",
-    "deploy": "gh-pages -d dist"
+    "build": "vite build"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^7.0.0",
