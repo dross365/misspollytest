@@ -12,11 +12,11 @@ const faqs = [
   },
   {
     q: "Do you have gluten-free options?",
-    a: "Yes  we have a gluten free option. We just need advance notice of an allergy to be prepare.",
+    a: "Yes  we have a gluten free option. We just need advance notice of an allergy to be prepared.",
   },
   {
     q: "Is the tea room kid-friendly?",
-    a: "yes, we are child friendly. However, afternoon tea is a set menu. We do not offer a child's menu. We recommend age 6 and up for afternoon tea. We do not offer high chairs or booster seats. A child under the age of 3 would be required to sit in an adult lap.",
+    a: "yes, we are child friendly. However, afternoon tea is a set menu. We do not offer a children's menu. We recommend age 6 and up for afternoon tea. We do not offer high chairs or booster seats. A child under the age of 3 would be required to sit in an adult lap.",
   },
   {
     q: "Where are you located?",
