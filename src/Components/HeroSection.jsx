@@ -16,7 +16,7 @@ const HeroSection = () => {
           Miss Polly's Tea Room
         </h1>
         <p className="text-4xl font-bold md:text-6xl mb-6 max-w-xl mx-auto text-[#faf3e0] leading-relaxed uppercase">
-          It's Tea Time
+          It's Tea Time!
         </p>
         <img
           src={longLogo}

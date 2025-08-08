@@ -72,13 +72,14 @@ const NavBar = () => {
               <ul className="flex flex-col gap-1 text-center font-bold text-slate-700">
                 {[
                   { href: "#hero", label: "Home" },
-                  { href: "#history", label: "History of 812 Valley Ct" },
+                  { href: "#history", label: "History of 218 Valley Ct" },
                   { href: "#expect", label: "What To Expect" },
                   { href: "#who", label: "Who Is Miss Polly?" },
                   { href: "#tea", label: "History of Tea" },
                   { href: "#dining", label: "Dining Rooms" },
                   { href: "#events", label: "Events" },
                   { href: "#location", label: "Location & Hours" },
+                  { href: "#faqs", label: "Frequently Asked Questions" },
                   {
                     href: "https://miss-pollys.resos.com/booking",
                     label: "Reserve",
