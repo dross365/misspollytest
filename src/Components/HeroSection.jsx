@@ -1,6 +1,6 @@
 import React from "react";
 import heroImage from "../assets/hero-image.png";
-import longLogo from "../assets/long-logo.png";
+import longLogo from "../assets/light-logo.png";
 
 const HeroSection = () => {
   return (
