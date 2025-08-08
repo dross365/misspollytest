@@ -27,7 +27,7 @@ const NavBar = () => {
   return (
     <section className="sticky top-0 z-50 w-full h-[70px] bg-[#c4b9cd] flex justify-between items-center px-4 md:px-8">
       {/* Left: Logo + Title */}
-      <a href="/" className="flex items-center gap-2">
+      <a href="#hero" className="flex items-center gap-2">
         <img src={logo} alt="Miss Polly's Logo" className="h-16 w-auto" />
         <h1 className="hidden md:block uppercase text-xl text-[#faf3e0]">
           Miss Polly's Tea Room
@@ -71,7 +71,7 @@ const NavBar = () => {
             >
               <ul className="flex flex-col gap-1 text-center font-bold text-slate-700">
                 {[
-                  { href: "/", label: "Home" },
+                  { href: "#hero", label: "Home" },
                   { href: "#history", label: "History of 812 Valley Ct" },
                   { href: "#expect", label: "What To Expect" },
                   { href: "#who", label: "Who Is Miss Polly?" },

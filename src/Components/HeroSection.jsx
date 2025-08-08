@@ -5,6 +5,7 @@ import longLogo from "../assets/long-logo.png";
 const HeroSection = () => {
   return (
     <section
+      id="hero"
       className="relative h-[500px] md:h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center text-center text-white"
       style={{ backgroundImage: `url(${heroImage})` }}
     >
