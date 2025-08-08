@@ -17,19 +17,26 @@ const HistorySection = () => {
           history of afternoon tea
         </h3>
         <p className="text-sm text-[#faf3e0] text-justify md:text-center mt-4 w-[80%] mx-auto mb-4 md:max-w-[800px] md:text-lg">
-          Tea’s story begins in ancient China, where legend credits Emperor Shen
-          Nong with its discovery around 2737 BCE when tea leaves drifted into
-          his boiling water. Initially valued for medicinal qualities, tea
-          evolved into a daily beverage and cultural ritual, spreading to Japan
-          by the early centuries CE via Buddhist monks. By the 17th century,
-          European traders—particularly the Dutch and British East India
-          Companies—had introduced tea to the West, where it became a
-          fashionable luxury and later a staple. In Britain, the rise of
-          afternoon tea in the 1800s cemented tea’s social role, while global
-          cultivation expanded into India, Sri Lanka, and Africa under colonial
-          influence. Today, tea is the world’s most consumed beverage after
-          water, with countless varieties and cultural traditions woven into its
-          history.
+          Afternoon tea was introduced in England by Anna, the seventh Duchess
+          of Bedford, in the year 1840. The Duchess would become hungry around
+          four o'clock in the afternoon. The evening meal in her household was
+          served fashionably late at eight o'clock, thus leaving a long period
+          of time between lunch and dinner. The Duchess asked that a tray of
+          tea, bread and butter (some time earlier, the Earl of Sandwich had had
+          the idea of putting a filling between two slices of bread) and cake be
+          brought to her room during the lat afternoon. This became a habit of
+          hers and she began inviting friends to join her.
+        </p>
+        <p className="text-sm text-[#faf3e0] text-justify md:text-center mt-4 w-[80%] mx-auto mb-4 md:max-w-[800px] md:text-lg">
+          This pause for tea became a fashionable social event. Durign the
+          1880's upper-class and society women would change into long gowns,
+          gloves and hats for their afternoon tea which was usually served in
+          the drawing room between four and five o'clock.
+        </p>
+        <p className="text-sm text-[#faf3e0] text-justify md:text-center mt-4 w-[80%] mx-auto mb-4 md:max-w-[800px] md:text-lg">
+          Today, both high tea and afternoon tea have the same purpose, to
+          socialize with family and friends. They are enjoyed by everyone, no
+          matter their social class.
         </p>
         <img
           src={portrait}
