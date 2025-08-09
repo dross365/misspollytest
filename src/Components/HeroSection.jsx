@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative h-[500px] md:h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center text-center text-white"
+      className="relative h-[500px] lg:h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center text-center text-white"
       style={{ backgroundImage: `url(${heroImage})` }}
     >
       <div className="absolute inset-0 bg-black/40"></div>

@@ -22,7 +22,7 @@ const DiningRooms = () => {
           <img
             src={celeste}
             alt="celeste dining room"
-            className="w-72 md:w-96 h-auto mx-auto rounded-lg shadow-lg my-3"
+            className="w-72 lg:w-96 h-auto mx-auto rounded-lg shadow-lg my-3"
           />
         </div>
         <div>
@@ -32,7 +32,7 @@ const DiningRooms = () => {
           <img
             src={cleo}
             alt="cleo dining room"
-            className="w-72 md:w-96 h-auto mx-auto rounded-lg shadow-lg my-3"
+            className="w-72 lg:w-96 h-auto mx-auto rounded-lg shadow-lg my-3"
           />
         </div>
         <div>
@@ -42,7 +42,7 @@ const DiningRooms = () => {
           <img
             src={rose}
             alt="rose dining room"
-            className="w-72 md:w-96 h-auto mx-auto rounded-lg shadow-lg my-3"
+            className="w-72 lg:w-96 h-auto mx-auto rounded-lg shadow-lg my-3"
           />
         </div>
       </div>

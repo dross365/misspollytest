@@ -5,22 +5,21 @@ import fireplaceDeco from "../assets/fireplace-deco.JPG";
 const ColonialSection = () => {
   return (
     <section id="history" className="bg-[#faf3e0] pb-[50px]">
-      {/* Colonial Section */}
-      <div className="md:w-full grid grid-cols-1 md:grid-cols-4">
-        {/* Column 1: Text Content */}
-        <div className="p-2 m-4 md:col-span-2">
-          <p className="uppercase text-sm text-[#d8a7b1] text-center mt-4 md:text-lg">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 items-center">
+        {/* Text: spans 2 cols on lg */}
+        <div className="p-2 m-4 lg:col-span-2">
+          <p className="uppercase text-sm text-[#d8a7b1] text-center mt-4 lg:text-lg">
             the charming
           </p>
           <h2 className="uppercase tracking-widest text-2xl text-center mt-2">
             historic colonial setting
           </h2>
-          <p className="text-sm md:text-lg w-[90%] md:w-[80%] mx-auto text-justify md:text-left mt-4">
+          <p className="text-sm lg:text-lg w-[90%] lg:w-[80%] mx-auto text-justify lg:text-left mt-4">
             Built circa 1880 by Thomas Marion Sanders, this stately Greek
             Revival residence showcases a commanding two-story portico supported
             by classical columns and capped with a pediment—hallmarks of the
             style, echoing the nearby Sam Davis Home, another celebrated Greek
-            Revival landmark in Smyrna . Originally serving as Sanders’ private
+            Revival landmark in Smyrna. Originally serving as Sanders’ private
             residence, the home later found adaptive reuse as a photography
             studio before undergoing transformation into “Grandma’s House,” a
             charming bed-and-breakfast that preserved much of its original
@@ -34,19 +33,33 @@ const ColonialSection = () => {
           </p>
         </div>
 
-        {/* Column 2: Image Container */}
-        <div className="md:col-span-1 flex items-center justify-center">
+        {/* Images: mobile/medium (side-by-side under text) */}
+        <div className="flex justify-center gap-4 lg:hidden">
           <img
             src={cabinet}
             alt="corner cabinet"
-            className="w-48 md:w-80 mb-6 h-auto mx-auto rounded-lg shadow-lg my-auto"
+            className="w-40 sm:w-48 h-auto rounded-lg shadow-lg"
           />
-        </div>
-        <div className="md:col-span-1 flex items-center justify-center">
           <img
             src={fireplaceDeco}
             alt="fireplace decorations"
-            className="w-48 md:w-80 mb-6 h-auto mx-auto rounded-lg shadow-lg my-auto"
+            className="w-40 sm:w-48 h-auto rounded-lg shadow-lg"
+          />
+        </div>
+
+        {/* Images: large screens (each in its own grid column) */}
+        <div className="hidden lg:flex items-center justify-center">
+          <img
+            src={cabinet}
+            alt="corner cabinet"
+            className="w-72 xl:w-80 h-auto rounded-lg shadow-lg"
+          />
+        </div>
+        <div className="hidden lg:flex items-center justify-center">
+          <img
+            src={fireplaceDeco}
+            alt="fireplace decorations"
+            className="w-72 xl:w-80 h-auto rounded-lg shadow-lg"
           />
         </div>
       </div>
