@@ -12,6 +12,7 @@ import WhoSection from "./Components/WhoSection";
 import DiningRooms from "./Components/DiningRooms";
 import SpecialDaysSection from "./Components/SpecialDaysSection";
 import FAQSection from "./Components/FAQSection";
+import ContactSection from "./Components/ContactSection";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <HistorySection />
       <DiningRooms />
       <SpecialDaysSection />
+      <ContactSection />
       <LocationHours />
       <FAQSection />
       <Footer />

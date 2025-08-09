@@ -78,6 +78,7 @@ const NavBar = () => {
                   { href: "#tea", label: "History of Afternoon Tea" },
                   { href: "#dining", label: "Dining Rooms" },
                   { href: "#events", label: "Events" },
+                  { href: "#contact", label: "Contact Us" },
                   { href: "#location", label: "Location & Hours" },
                   { href: "#faqs", label: "Frequently Asked Questions" },
                   {
