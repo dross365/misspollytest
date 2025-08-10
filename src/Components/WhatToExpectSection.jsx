@@ -14,7 +14,14 @@ const WhatToExpectSection = () => {
           <h2 className="uppercase tracking-widest text-2xl text-center">
             what to expect
           </h2>
-          <p className="text-sm md:text-md lg:text-lg p-4 mt-2 text-left">
+          <p className="font-bold text-sm md:text-md lg:text-lg p-4 mt-2 text-center md:text-left">
+            Pricing: $35 / person
+          </p>
+          <p className="text-sm md:text-md lg:text-lg p-4 mt-2 text-center md:text-left">
+            Due to limited seating and to ensure the finest and freshest
+            ingredients, prepayment is required.
+          </p>
+          <p className="text-sm md:text-md lg:text-lg p-4 mt-2 text-justify">
             When you come to Miss Polly's you will be greeted by one of our
             smiling faces and shown to your table. Your room host will advise
             you of our hot tea selections. If you prefer a cold beverage option
