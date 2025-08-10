@@ -4,11 +4,11 @@ import { FiChevronDown } from "react-icons/fi";
 const faqs = [
   {
     q: "Do I need a reservation?",
-    a: "Yes. Seating is limited and prepared fresh daily—please reserve in advance to guarantee a table.",
+    a: "Yes. Seating is limited and prepared fresh daily—please reserve in advance.",
   },
   {
     q: "What are your seating times?",
-    a: "We offer seatings on Saturday and Sunday at 1:00 PM and 3:00 PM.",
+    a: "We offer seatings on Friday (starting 7/5), Saturday and Sunday at 1:00 PM and 3:00 PM.",
   },
   {
     q: "Do you have gluten-free options?",
@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     q: "Where are you located?",
-    a: "218 Valley Ct, Smyrna, TN 37167. See the ‘Location & Hours’ section for a map and parking details.",
+    a: "218 Valley Ct, Smyrna, TN 37167. See the ‘Location & Hours’ section for a map.",
   },
   {
     q: "How long does tea last?",
