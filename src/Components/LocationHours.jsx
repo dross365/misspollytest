@@ -51,6 +51,11 @@ const LocationHours = () => {
                 </p>
               ))}
             </div>
+            <p>
+              Doors open at 12:45pm. Parking lot entrance located on Hankins
+              Drive. If the lot is full, please park along the driveway or on
+              the street against the curb.
+            </p>
           </div>
         </div>
       </div>

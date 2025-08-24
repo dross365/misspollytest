@@ -19,7 +19,8 @@ const WhatToExpectSection = () => {
           </p>
           <p className="text-sm md:text-md lg:text-lg p-4 mt-2 text-center md:text-left">
             Due to limited seating and to ensure the finest and freshest
-            ingredients, prepayment is required.
+            ingredients, prepayment is required. Cash gratuity is appreciated
+            but not required.
           </p>
           <p className="text-sm md:text-md lg:text-lg p-4 mt-2 text-justify">
             When you come to Miss Polly's you will be greeted by one of our
