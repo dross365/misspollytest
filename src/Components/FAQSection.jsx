@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     q: "Can we rent the whole place for a party?",
-    a: "Yes! We love parties! Email events@misspollystearoom.com for information.",
+    a: "Yes! We love parties! Email info@misspollystearoom.com for information.",
   },
 ];
 
