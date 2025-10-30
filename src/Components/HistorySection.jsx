@@ -43,9 +43,6 @@ const HistorySection = () => {
           alt="portrait"
           className="w-72 md:w-112 h-auto mx-auto rounded-lg shadow-lg my-3"
         />
-        <p className="p-3 text-[#faf3e0] text-md md:text-2xl uppercase font-bold">
-          grand opening - august 16th 2025
-        </p>
         <a
           href="https://miss-pollys.resos.com/booking"
           target="_blank"
