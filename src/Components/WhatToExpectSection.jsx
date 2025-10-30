@@ -1,5 +1,5 @@
 import React from "react";
-import roseRoomTable from "../assets/rose-room-table.jpeg";
+import teaTray from "../assets/tea-tray.jpeg";
 
 const WhatToExpectSection = () => {
   return (
@@ -39,9 +39,9 @@ const WhatToExpectSection = () => {
         {/* Left side of desktop, bottom on mobile */}
         <div className="order-2 md:order-1 flex items-center justify-center">
           <img
-            src={roseRoomTable}
+            src={teaTray}
             alt="rose room table"
-            className="w-64 md:w-128 mb-6 h-auto mx-auto rounded-lg shadow-lg my-auto"
+            className="w-58 md:w-100 mb-6 h-auto mx-auto rounded-lg shadow-lg my-auto"
           />
         </div>
       </div>
