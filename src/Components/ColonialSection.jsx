@@ -4,7 +4,7 @@ import fireplaceDeco from "../assets/fireplace-deco.JPG";
 
 const ColonialSection = () => {
   return (
-    <section id="history" className="bg-[#faf3e0] pb-[50px]">
+    <section id="history" className="bg-[#faf3e0] pb-[50px] pt-4">
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 items-center">
         {/* Text: spans 2 cols on lg */}
         <div className="p-2 m-4 lg:col-span-2">
