@@ -13,6 +13,8 @@ import DiningRooms from "./Components/DiningRooms";
 import SpecialDaysSection from "./Components/SpecialDaysSection";
 import FAQSection from "./Components/FAQSection";
 import ContactSection from "./Components/ContactSection";
+import UpcomingEventsSection from "./Components/UpcomingEventsSection";
+import CurrentMenuSection from "./Components/CurrentMenuSection";
 
 function App() {
   return (
@@ -20,8 +22,10 @@ function App() {
       <NavBar />
       <HeroSection />
       <WelcomeSection />
+      <UpcomingEventsSection />
       <ColonialSection />
       <WhatToExpectSection />
+      <CurrentMenuSection />
       <CTA />
       <WhoSection />
       <HistorySection />
