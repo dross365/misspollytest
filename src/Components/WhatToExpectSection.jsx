@@ -15,7 +15,7 @@ const WhatToExpectSection = () => {
             what to expect
           </h2>
           <p className="font-bold text-sm md:text-md lg:text-lg p-4 mt-2 text-center md:text-left">
-            Pricing: $35 / person
+            Pricing: $35 / person + tax
           </p>
           <p className="text-sm md:text-md lg:text-lg p-4 mt-2 text-center md:text-left">
             Due to limited seating and to ensure the finest and freshest
