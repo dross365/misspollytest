@@ -1,5 +1,5 @@
 import React from 'react'
-import december from '../assets/december-events.jpeg'
+import january from '../assets/january_events.jpeg'
 
 const UpcomingEventsSection = () => {
   return (
@@ -12,10 +12,10 @@ const UpcomingEventsSection = () => {
       <div className='grid grid-cols-1'>
         <div>
           <p className='uppercase text-sm text-[#000g] text-center mt-4 md:text-lg'>
-            december at miss polly's
+            january at miss polly's
           </p>
           <img
-            src={december}
+            src={january}
             alt='cleo dining room'
             className='w-72 lg:w-120 h-auto mx-auto rounded-lg shadow-lg my-3'
           />
