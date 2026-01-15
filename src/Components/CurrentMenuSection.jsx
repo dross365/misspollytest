@@ -1,6 +1,6 @@
 import React from 'react'
-import currentMenu from '../assets/december_menu.jpeg'
-import januaryMenu from '../assets/january_menu.jpeg'
+import currentMenu from '../assets/january_menu.jpeg'
+import februaryMenu from '../assets/feb_menu.jpeg'
 
 const CurrentMenuSection = () => {
   return (
@@ -18,10 +18,10 @@ const CurrentMenuSection = () => {
         </div>
         <div>
           <h2 className='uppercase tracking-widest text-2xl text-center'>
-            january menu
+            february menu
           </h2>
           <img
-            src={januaryMenu}
+            src={februaryMenu}
             alt='celeste dining room'
             className='w-72 lg:w-120 h-auto mx-auto rounded-lg shadow-lg my-3'
           />
