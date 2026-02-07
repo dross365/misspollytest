@@ -1,5 +1,6 @@
 import React from 'react'
 import februaryEvent from '../assets/feb_event.jpeg'
+import marchEvent from '../assets/march_event.jpeg'
 
 const UpcomingEventsSection = () => {
   return (
@@ -9,14 +10,26 @@ const UpcomingEventsSection = () => {
           upcoming events
         </h2>
       </div>
-      <div className='grid grid-cols-1'>
+      <div className='grid grid-cols-1 md:grid-cols-2 pb-4 pt-4'>
+        {' '}
+        {/* md:grid-cols-2 with 2 menus */}
         <div>
-          <p className='uppercase text-sm text-[#000g] text-center mt-4 md:text-lg'>
-            february at miss polly's
-          </p>
+          <h2 className='uppercase tracking-widest text-2xl text-center'>
+            february event
+          </h2>
           <img
             src={februaryEvent}
-            alt='cleo dining room'
+            alt='celeste dining room'
+            className='w-72 lg:w-120 h-auto mx-auto rounded-lg shadow-lg my-3'
+          />
+        </div>
+        <div>
+          <h2 className='uppercase tracking-widest text-2xl text-center'>
+            march event
+          </h2>
+          <img
+            src={marchEvent}
+            alt='celeste dining room'
             className='w-72 lg:w-120 h-auto mx-auto rounded-lg shadow-lg my-3'
           />
         </div>
