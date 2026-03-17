@@ -20,11 +20,11 @@ const CurrentMenuSection = () => {
         </div>
         <div>
           <h2 className='uppercase tracking-widest lg:text-2xl text-xl text-center'>
-            march menu
+            april menu
           </h2>
           <img
             src={aprilMenu}
-            alt='march menu'
+            alt='april menu'
             className='w-72 lg:w-120 h-auto mx-auto rounded-lg shadow-lg my-3'
           />
         </div>

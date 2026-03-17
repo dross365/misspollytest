@@ -24,11 +24,11 @@ const UpcomingEventsSection = () => {
         </div> */}
         <div>
           <h2 className='uppercase tracking-widest text-2xl text-center'>
-            march event
+            april event
           </h2>
           <img
             src={aprilEvent}
-            alt='celeste dining room'
+            alt='april event'
             className='w-72 lg:w-240 h-auto mx-auto rounded-lg shadow-lg my-3'
           />
         </div>
