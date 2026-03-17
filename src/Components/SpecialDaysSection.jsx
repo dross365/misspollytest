@@ -14,7 +14,7 @@ const SpecialDaysSection = () => {
           <img
             src={pollysParties}
             alt='pollys parties'
-            className='w-72 lg:w-240 h-auto mx-auto rounded-lg shadow-lg my-3'
+            className='w-72 lg:w-[80%] h-auto mx-auto rounded-lg shadow-lg my-3'
           />
         </div>
         <div className='block lg:hidden relative mt-5'>
