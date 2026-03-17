@@ -1,6 +1,5 @@
 import React from 'react'
-import februaryEvent from '../assets/feb_event.jpeg'
-import marchEvent from '../assets/march_event.jpeg'
+import aprilEvent from '../assets/april_event.jpeg'
 
 const UpcomingEventsSection = () => {
   return (
@@ -28,9 +27,9 @@ const UpcomingEventsSection = () => {
             march event
           </h2>
           <img
-            src={marchEvent}
+            src={aprilEvent}
             alt='celeste dining room'
-            className='w-72 lg:w-120 h-auto mx-auto rounded-lg shadow-lg my-3'
+            className='w-72 lg:w-240 h-auto mx-auto rounded-lg shadow-lg my-3'
           />
         </div>
       </div>
