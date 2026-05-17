@@ -1,5 +1,5 @@
 import React from 'react'
-import aprilEvent from '../assets/april_event.jpeg'
+import juneEvent from '../assets/juneEvent.jpeg'
 
 const UpcomingEventsSection = () => {
   return (
@@ -9,7 +9,7 @@ const UpcomingEventsSection = () => {
           upcoming events
         </h2>
       </div>
-      <div className='grid grid-cols-1 pb-4 pt-4'>
+      <div className='grid w-72 lg:w-120 m-auto grid-cols-1 pb-4 pt-4'>
         {' '}
         {/* md:grid-cols-2 with 2 menus */}
         {/* <div>
@@ -24,11 +24,11 @@ const UpcomingEventsSection = () => {
         </div> */}
         <div>
           <h2 className='uppercase tracking-widest text-2xl text-center'>
-            april event
+            June Event
           </h2>
           <img
-            src={aprilEvent}
-            alt='april event'
+            src={juneEvent}
+            alt='june event'
             className='w-72 lg:w-240 h-auto mx-auto rounded-lg shadow-lg my-3'
           />
         </div>

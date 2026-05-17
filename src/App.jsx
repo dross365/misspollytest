@@ -22,7 +22,7 @@ function App() {
       <NavBar />
       <HeroSection />
       <WelcomeSection />
-      {/*<UpcomingEventsSection /> */}
+      <UpcomingEventsSection />
       <ColonialSection />
       <WhatToExpectSection />
       <CurrentMenuSection />
