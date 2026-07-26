@@ -4,7 +4,7 @@ import NewLocationImg from '../assets/new_location.jpeg'
 const NewLocation = () => {
   return (
     <section id='upcomingevents' className='bg-[#faf3e0] pt-[20px]'>
-      <div className='grid w-full max-w-5xl mx-auto grid-cols-1 pb-4 pt-4'>
+      <div className='grid w-[90%] lg:w-full max-w-5xl mx-auto grid-cols-1 pb-4 pt-4'>
         {' '}
         {/* md:grid-cols-2 with 2 menus */}
         {/* <div>

@@ -25,7 +25,7 @@ function App() {
       <HeroSection />
       <NewLocation />
       <WelcomeSection />
-      {/* <UpcomingEventsSection /> */}
+      <UpcomingEventsSection />
       <ColonialSection />
       <WhatToExpectSection />
       <CurrentMenuSection />

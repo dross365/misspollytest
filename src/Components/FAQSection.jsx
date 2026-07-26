@@ -4,7 +4,7 @@ import { FiChevronDown } from 'react-icons/fi'
 const faqs = [
   {
     q: 'Do I need a reservation?',
-    a: 'Yes. Seating is limited and prepared fresh daily—please reserve in advance.',
+    a: 'If you are coming for tea, yes. If you are coming for lunch, you can simply walk in!',
   },
   {
     q: 'Do you have gluten-free options?',
