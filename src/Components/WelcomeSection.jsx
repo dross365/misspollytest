@@ -1,5 +1,5 @@
 import React from 'react'
-import missPollyNight from '../assets/miss-pollys-night.jpg'
+import historicCreekHouse from '../assets/historic_creek_house.jpg'
 
 const WelcomeSection = () => {
   return (
@@ -7,8 +7,8 @@ const WelcomeSection = () => {
       <div className='flex flex-col md:flex-row'>
         <div className='order-2 md:order-1 p-3 md:p-6 flex justify-center w-full md:w-1/2'>
           <img
-            src={missPollyNight}
-            alt="miss polly's tea room at night"
+            src={historicCreekHouse}
+            alt='historic creek house'
             className='w-72 md:w-128 mb-6 h-auto mx-auto rounded-lg shadow-lg my-auto'
           />
         </div>
@@ -17,20 +17,23 @@ const WelcomeSection = () => {
             welcome to miss polly's tea room
           </h2>
           <p className='text-sm md:text-lg w-[80%] mx-auto text-center md:text-left mt-4'>
-            Miss Polly's is located in Smyrna, Tennessee inside the beautiful
-            Victorian Sanders House.
+            Miss Polly's is now located inside the historic Creek House located
+            on the beautiful grounds of The Sam Davis Home.
           </p>
 
           <p className='text-sm md:text-lg w-[80%] mx-auto text-center md:text-left mt-4'>
-            At Miss Polly's we serve traditional afternoon tea each week on
-            Friday, Saturday and Sunday.
+            We will be serving tea Tuesday through Friday between 11 and 2 and
+            Saturdays between 11 and 4.
           </p>
           <p className='text-sm md:text-lg w-[80%] mx-auto text-center md:text-left mt-4'>
-            We have two seatings each day at 1:00pm and 3:00pm.
+            We will be open daily for lunch on a walk-in basis.
           </p>
+          {/* <p className='text-sm md:text-lg w-[80%] mx-auto text-center md:text-left mt-4'>
+            We have two seatings each day at 1:00pm and 3:00pm.
+          </p> */}
           <p className='text-sm md:text-lg w-[80%] mx-auto text-center md:text-left mt-4'>
             Our tea menu is meticulously prepared daily and seating is limited,
-            so reservations are required.
+            so reservations are still required.
           </p>
         </div>
       </div>

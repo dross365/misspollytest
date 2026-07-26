@@ -15,24 +15,27 @@ import FAQSection from './Components/FAQSection'
 import ContactSection from './Components/ContactSection'
 import UpcomingEventsSection from './Components/UpcomingEventsSection'
 import CurrentMenuSection from './Components/CurrentMenuSection'
+import NewLocation from './Components/NewLocation'
+import DrivingDirections from './Components/DrivingDirections'
 
 function App() {
   return (
     <div>
       <NavBar />
       <HeroSection />
+      <NewLocation />
       <WelcomeSection />
-      <UpcomingEventsSection />
+      {/* <UpcomingEventsSection /> */}
       <ColonialSection />
       <WhatToExpectSection />
       <CurrentMenuSection />
       <CTA />
       <WhoSection />
       <HistorySection />
-      <DiningRooms />
-      <SpecialDaysSection />
+      {/* <SpecialDaysSection /> */}
       <ContactSection />
       <LocationHours />
+      <DrivingDirections />
       <FAQSection />
       <Footer />
     </div>
