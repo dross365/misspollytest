@@ -30,8 +30,7 @@ const LocationHours = () => {
           <div className='w-full flex flex-col items-center'>
             <div className='w-full max-w-[400px]'>
               <h2 className='font-bold uppercase tracking-widest text-2xl text-center mt-2'>
-                hours Hours- mon closed tues-fri 11am to 2pm sat 11am to 4pm sun
-                closed
+                hours
               </h2>
               {[
                 { day: 'mon', hours: 'closed' },
