@@ -1,5 +1,5 @@
 import React from 'react'
-import currentMenu from '../assets/august_menu.jpeg'
+import currentMenu from '../assets/september_menu.jpeg'
 import lunchMenu from '../assets/lunch_menu.jpeg'
 
 const CurrentMenuSection = () => {
