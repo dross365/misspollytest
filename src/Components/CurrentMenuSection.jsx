@@ -1,6 +1,7 @@
 import React from 'react'
 import currentMenu from '../assets/september_menu.jpeg'
 import lunchMenu from '../assets/lunch_menu.jpeg'
+import octoberMenu from '../assets/october_menu.jpeg'
 
 const CurrentMenuSection = () => {
   return (
@@ -15,6 +16,16 @@ const CurrentMenuSection = () => {
           <img
             src={currentMenu}
             alt='tea menu'
+            className='w-72 lg:w-120 h-auto mx-auto rounded-lg shadow-lg mt-3 mb-[100px]'
+          />
+        </div>
+        <div>
+          <h2 className='uppercase tracking-widest lg:text-2xl text-xl text-center'>
+            october menu
+          </h2>
+          <img
+            src={octoberMenu}
+            alt='october menu'
             className='w-72 lg:w-120 h-auto mx-auto rounded-lg shadow-lg mt-3 mb-[100px]'
           />
         </div>
