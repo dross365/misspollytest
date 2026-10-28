@@ -1,11 +1,13 @@
 import React from 'react'
-import NewLocationImg from '../assets/new_location.jpeg'
+import holidayReservation from '../assets/holidayReservation.jpeg'
 
-const NewLocation = () => {
+const HolidayEvents = () => {
   return (
     <section className='bg-[#faf3e0] pt-[20px]'>
-      <div className='grid w-[90%] lg:w-full max-w-5xl mx-auto grid-cols-1 pb-4 pt-4'>
-        {' '}
+      <div className='grid w-[80%] lg:w-full max-w-3xl mx-auto grid-cols-1 pb-4 pt-4'>
+        <h2 className='uppercase tracking-widest text-2xl text-center'>
+          holiday tea & celebrations
+        </h2>{' '}
         {/* md:grid-cols-2 with 2 menus */}
         {/* <div>
           <h2 className='uppercase tracking-widest text-2xl text-center'>
@@ -19,8 +21,8 @@ const NewLocation = () => {
         </div> */}
         <div>
           <img
-            src={NewLocationImg}
-            alt='new location image'
+            src={holidayReservation}
+            alt='holiday reservation'
             //lg:w-240
             className='block mx-auto max-w-full h-auto rounded-lg shadow-lg my-3'
           />
@@ -30,4 +32,4 @@ const NewLocation = () => {
   )
 }
 
-export default NewLocation
+export default HolidayEvents

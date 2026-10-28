@@ -1,6 +1,7 @@
 import React from 'react'
 import lunchMenu from '../assets/lunch_menu.jpeg'
 import currentMenu from '../assets/october_menu.jpeg'
+import novemberMenu from '../assets/novemberMenu.webp'
 
 const CurrentMenuSection = () => {
   return (
@@ -15,6 +16,16 @@ const CurrentMenuSection = () => {
           <img
             src={currentMenu}
             alt='current menu'
+            className='w-72 lg:w-120 h-auto mx-auto rounded-lg shadow-lg mt-3 mb-[100px]'
+          />
+        </div>
+        <div>
+          <h2 className='uppercase tracking-widest lg:text-2xl text-xl text-center'>
+            november menu
+          </h2>
+          <img
+            src={novemberMenu}
+            alt='november menu'
             className='w-72 lg:w-120 h-auto mx-auto rounded-lg shadow-lg mt-3 mb-[100px]'
           />
         </div>

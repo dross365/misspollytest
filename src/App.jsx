@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import CTA from './Components/CTA'
 import NavBar from './Components/NavBar'
 import HeroSection from './Components/HeroSection'
@@ -15,7 +14,7 @@ import FAQSection from './Components/FAQSection'
 import ContactSection from './Components/ContactSection'
 import UpcomingEventsSection from './Components/UpcomingEventsSection'
 import CurrentMenuSection from './Components/CurrentMenuSection'
-import NewLocation from './Components/NewLocation'
+import HolidayEvents from './Components/HolidayEvents'
 import DrivingDirections from './Components/DrivingDirections'
 
 function App() {
@@ -23,7 +22,7 @@ function App() {
     <div>
       <NavBar />
       <HeroSection />
-      <NewLocation />
+      <HolidayEvents />
       <WelcomeSection />
       <UpcomingEventsSection />
       <ColonialSection />

@@ -1,5 +1,5 @@
 import React from 'react'
-import septemberEvent from '../assets/september_event.jpeg'
+import novemberEvent from '../assets/novemberEvent.jpeg'
 
 const UpcomingEventsSection = () => {
   return (
@@ -19,12 +19,12 @@ const UpcomingEventsSection = () => {
         </div> */}
         <div>
           <h2 className='uppercase tracking-widest text-2xl text-center'>
-            september event
+            november event
           </h2>
           <img
-            src={septemberEvent}
-            alt='september event'
-            className='block mx-auto max-w-[65%] lg:max-w-[50%] h-auto rounded-lg shadow-lg my-3'
+            src={novemberEvent}
+            alt='november event'
+            className='block mx-auto max-w-[80%] lg:max-w-[40%] h-auto rounded-lg shadow-lg my-3'
           />
         </div>
       </div>
